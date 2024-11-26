@@ -8,6 +8,8 @@ This application predicts the **borough** where a crime likely occurred in New Y
 Use the options below to provide the necessary details for prediction.
 """)
 
+st.write("""Team members : Ashutosh Panigrahi, Wanshika Patro, Samidha Bhosale""")
+
 model = joblib.load('knn_model3.pkl')  
 
 feature_order = [
